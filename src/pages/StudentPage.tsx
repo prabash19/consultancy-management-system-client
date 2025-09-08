@@ -55,7 +55,7 @@ export default function StudentsPage() {
       label: "Actions",
       render: (_, row) => (
         <button
-          className="bg-blue-500 text-white px-3 py-1 rounded hover:bg-blue-600 hover:cursor-pointer"
+          className="bg-violet-600 text-white px-3 py-1 rounded hover:bg-violet-700 hover:cursor-pointer"
           onClick={() => navigate(`/students/${row.id}`)}
         >
           View Details

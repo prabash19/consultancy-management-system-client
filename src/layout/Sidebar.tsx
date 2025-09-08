@@ -11,7 +11,7 @@ function Sidebar() {
   return (
     <div className="h-screen w-[250px] bg-gray-100 p-4 shadow-lg">
       <img
-        src="./logo.jpeg"
+        src="./logo.png"
         width={250}
         height={300}
         alt="Visa Direct NZ"
